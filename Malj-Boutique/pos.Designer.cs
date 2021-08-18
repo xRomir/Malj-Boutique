@@ -30,10 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.comboBoxPurchaseItem = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dataDataSet = new Malj_Boutique.DataDataSet();
-            this.dataDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.itemsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataDataSet = new Malj_Boutique.DataDataSet();
+            this.label1 = new System.Windows.Forms.Label();
             this.itemsTableAdapter = new Malj_Boutique.DataDataSetTableAdapters.itemsTableAdapter();
             this.textBoxPurchaseDesc = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -46,9 +46,9 @@
             this.textBoxTotal = new System.Windows.Forms.TextBox();
             this.textBoxChange = new System.Windows.Forms.TextBox();
             this.textBoxCash = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.itemsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBoxPurchaseItem
@@ -57,36 +57,36 @@
             this.comboBoxPurchaseItem.DataSource = this.itemsBindingSource;
             this.comboBoxPurchaseItem.DisplayMember = "itemName";
             this.comboBoxPurchaseItem.FormattingEnabled = true;
-            this.comboBoxPurchaseItem.Location = new System.Drawing.Point(130, 53);
+            this.comboBoxPurchaseItem.Location = new System.Drawing.Point(12, 48);
             this.comboBoxPurchaseItem.Name = "comboBoxPurchaseItem";
             this.comboBoxPurchaseItem.Size = new System.Drawing.Size(180, 21);
             this.comboBoxPurchaseItem.TabIndex = 0;
             this.comboBoxPurchaseItem.ValueMember = "itemName";
             this.comboBoxPurchaseItem.SelectedIndexChanged += new System.EventHandler(this.comboBoxPurchaseItem_SelectedIndexChanged);
             // 
-            // label1
+            // itemsBindingSource
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(130, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Select Item:";
-            // 
-            // dataDataSet
-            // 
-            this.dataDataSet.DataSetName = "DataDataSet";
-            this.dataDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.itemsBindingSource.DataMember = "items";
+            this.itemsBindingSource.DataSource = this.dataDataSetBindingSource;
             // 
             // dataDataSetBindingSource
             // 
             this.dataDataSetBindingSource.DataSource = this.dataDataSet;
             this.dataDataSetBindingSource.Position = 0;
             // 
-            // itemsBindingSource
+            // dataDataSet
             // 
-            this.itemsBindingSource.DataMember = "items";
-            this.itemsBindingSource.DataSource = this.dataDataSetBindingSource;
+            this.dataDataSet.DataSetName = "DataDataSet";
+            this.dataDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Select Item:";
             // 
             // itemsTableAdapter
             // 
@@ -95,7 +95,7 @@
             // textBoxPurchaseDesc
             // 
             this.textBoxPurchaseDesc.Enabled = false;
-            this.textBoxPurchaseDesc.Location = new System.Drawing.Point(130, 99);
+            this.textBoxPurchaseDesc.Location = new System.Drawing.Point(12, 94);
             this.textBoxPurchaseDesc.Multiline = true;
             this.textBoxPurchaseDesc.Name = "textBoxPurchaseDesc";
             this.textBoxPurchaseDesc.Size = new System.Drawing.Size(180, 66);
@@ -104,7 +104,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(313, 34);
+            this.label2.Location = new System.Drawing.Point(195, 29);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 13);
             this.label2.TabIndex = 3;
@@ -112,7 +112,7 @@
             // 
             // textBoxPurchaseAmount
             // 
-            this.textBoxPurchaseAmount.Location = new System.Drawing.Point(316, 53);
+            this.textBoxPurchaseAmount.Location = new System.Drawing.Point(198, 48);
             this.textBoxPurchaseAmount.Name = "textBoxPurchaseAmount";
             this.textBoxPurchaseAmount.Size = new System.Drawing.Size(100, 20);
             this.textBoxPurchaseAmount.TabIndex = 4;
@@ -122,7 +122,7 @@
             // 
             // buttonBuy
             // 
-            this.buttonBuy.Location = new System.Drawing.Point(316, 125);
+            this.buttonBuy.Location = new System.Drawing.Point(198, 120);
             this.buttonBuy.Name = "buttonBuy";
             this.buttonBuy.Size = new System.Drawing.Size(206, 40);
             this.buttonBuy.TabIndex = 5;
@@ -133,7 +133,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(127, 83);
+            this.label3.Location = new System.Drawing.Point(9, 78);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 13);
             this.label3.TabIndex = 7;
@@ -142,7 +142,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(313, 83);
+            this.label4.Location = new System.Drawing.Point(195, 78);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 13);
             this.label4.TabIndex = 8;
@@ -151,7 +151,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(419, 84);
+            this.label5.Location = new System.Drawing.Point(301, 79);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(50, 13);
             this.label5.TabIndex = 12;
@@ -160,7 +160,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(419, 35);
+            this.label6.Location = new System.Drawing.Point(301, 30);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(34, 13);
             this.label6.TabIndex = 9;
@@ -169,7 +169,7 @@
             // textBoxTotal
             // 
             this.textBoxTotal.Enabled = false;
-            this.textBoxTotal.Location = new System.Drawing.Point(316, 99);
+            this.textBoxTotal.Location = new System.Drawing.Point(198, 94);
             this.textBoxTotal.Name = "textBoxTotal";
             this.textBoxTotal.Size = new System.Drawing.Size(100, 20);
             this.textBoxTotal.TabIndex = 13;
@@ -179,7 +179,7 @@
             // textBoxChange
             // 
             this.textBoxChange.Enabled = false;
-            this.textBoxChange.Location = new System.Drawing.Point(422, 100);
+            this.textBoxChange.Location = new System.Drawing.Point(304, 95);
             this.textBoxChange.Name = "textBoxChange";
             this.textBoxChange.Size = new System.Drawing.Size(100, 20);
             this.textBoxChange.TabIndex = 15;
@@ -188,7 +188,7 @@
             // 
             // textBoxCash
             // 
-            this.textBoxCash.Location = new System.Drawing.Point(422, 54);
+            this.textBoxCash.Location = new System.Drawing.Point(304, 49);
             this.textBoxCash.Name = "textBoxCash";
             this.textBoxCash.Size = new System.Drawing.Size(100, 20);
             this.textBoxCash.TabIndex = 14;
@@ -201,7 +201,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(538, 197);
+            this.BackgroundImage = global::Malj_Boutique.Properties.Resources.abstract_blurred_fashion_clothes_shop_260nw_1369671731;
+            this.ClientSize = new System.Drawing.Size(416, 197);
             this.Controls.Add(this.textBoxChange);
             this.Controls.Add(this.textBoxCash);
             this.Controls.Add(this.textBoxTotal);
@@ -218,9 +219,9 @@
             this.Name = "pos";
             this.Text = "Purchase Item";
             this.Load += new System.EventHandler(this.pos_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.itemsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

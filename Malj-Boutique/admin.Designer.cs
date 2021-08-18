@@ -93,11 +93,13 @@
             // 
             // groupBoxUsermngmnt
             // 
+            this.groupBoxUsermngmnt.BackgroundImage = global::Malj_Boutique.Properties.Resources._105713626_fashion_and_clothing_personal_style_and_popular_trends_self_expression_and_creativity_selection_of_b;
+            this.groupBoxUsermngmnt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBoxUsermngmnt.Controls.Add(this.buttonEditItem);
             this.groupBoxUsermngmnt.Controls.Add(this.buttonOpenAddItem);
             this.groupBoxUsermngmnt.Controls.Add(this.buttonEditUser);
             this.groupBoxUsermngmnt.Controls.Add(this.buttonAddUser);
-            this.groupBoxUsermngmnt.Location = new System.Drawing.Point(226, 32);
+            this.groupBoxUsermngmnt.Location = new System.Drawing.Point(941, 259);
             this.groupBoxUsermngmnt.Name = "groupBoxUsermngmnt";
             this.groupBoxUsermngmnt.Size = new System.Drawing.Size(504, 326);
             this.groupBoxUsermngmnt.TabIndex = 0;
@@ -106,9 +108,10 @@
             // 
             // buttonEditItem
             // 
-            this.buttonEditItem.Location = new System.Drawing.Point(325, 126);
+            this.buttonEditItem.Font = new System.Drawing.Font("Segoe Script", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.buttonEditItem.Location = new System.Drawing.Point(120, 19);
             this.buttonEditItem.Name = "buttonEditItem";
-            this.buttonEditItem.Size = new System.Drawing.Size(74, 61);
+            this.buttonEditItem.Size = new System.Drawing.Size(108, 100);
             this.buttonEditItem.TabIndex = 5;
             this.buttonEditItem.Text = "Edit Item Infos";
             this.buttonEditItem.UseVisualStyleBackColor = true;
@@ -116,9 +119,10 @@
             // 
             // buttonOpenAddItem
             // 
-            this.buttonOpenAddItem.Location = new System.Drawing.Point(245, 126);
+            this.buttonOpenAddItem.Font = new System.Drawing.Font("Segoe Script", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.buttonOpenAddItem.Location = new System.Drawing.Point(120, 125);
             this.buttonOpenAddItem.Name = "buttonOpenAddItem";
-            this.buttonOpenAddItem.Size = new System.Drawing.Size(74, 61);
+            this.buttonOpenAddItem.Size = new System.Drawing.Size(108, 100);
             this.buttonOpenAddItem.TabIndex = 4;
             this.buttonOpenAddItem.Text = "Add Item";
             this.buttonOpenAddItem.UseVisualStyleBackColor = true;
@@ -126,9 +130,10 @@
             // 
             // buttonEditUser
             // 
-            this.buttonEditUser.Location = new System.Drawing.Point(165, 125);
+            this.buttonEditUser.Font = new System.Drawing.Font("Segoe Script", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.buttonEditUser.Location = new System.Drawing.Point(6, 125);
             this.buttonEditUser.Name = "buttonEditUser";
-            this.buttonEditUser.Size = new System.Drawing.Size(74, 61);
+            this.buttonEditUser.Size = new System.Drawing.Size(108, 100);
             this.buttonEditUser.TabIndex = 3;
             this.buttonEditUser.Text = "Edit User Info";
             this.buttonEditUser.UseVisualStyleBackColor = true;
@@ -136,9 +141,10 @@
             // 
             // buttonAddUser
             // 
-            this.buttonAddUser.Location = new System.Drawing.Point(85, 125);
+            this.buttonAddUser.Font = new System.Drawing.Font("Segoe Script", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.buttonAddUser.Location = new System.Drawing.Point(6, 19);
             this.buttonAddUser.Name = "buttonAddUser";
-            this.buttonAddUser.Size = new System.Drawing.Size(74, 61);
+            this.buttonAddUser.Size = new System.Drawing.Size(108, 100);
             this.buttonAddUser.TabIndex = 0;
             this.buttonAddUser.Text = "Add User";
             this.buttonAddUser.UseVisualStyleBackColor = true;
@@ -146,6 +152,8 @@
             // 
             // groupBoxAddUser
             // 
+            this.groupBoxAddUser.BackgroundImage = global::Malj_Boutique.Properties.Resources._106964132_woman_fashionable_boutique_clothing_store_window_display_in_shopping_mall_blur_defocused_background;
+            this.groupBoxAddUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBoxAddUser.Controls.Add(this.buttonRegisterUser);
             this.groupBoxAddUser.Controls.Add(this.label3);
             this.groupBoxAddUser.Controls.Add(this.label2);
@@ -155,7 +163,7 @@
             this.groupBoxAddUser.Controls.Add(this.textBoxAddPass);
             this.groupBoxAddUser.Controls.Add(this.textBoxAddFull);
             this.groupBoxAddUser.Controls.Add(this.textBoxAddUser);
-            this.groupBoxAddUser.Location = new System.Drawing.Point(865, 291);
+            this.groupBoxAddUser.Location = new System.Drawing.Point(880, 278);
             this.groupBoxAddUser.Name = "groupBoxAddUser";
             this.groupBoxAddUser.Size = new System.Drawing.Size(501, 323);
             this.groupBoxAddUser.TabIndex = 1;
@@ -165,7 +173,7 @@
             // buttonRegisterUser
             // 
             this.buttonRegisterUser.Font = new System.Drawing.Font("Segoe Script", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.buttonRegisterUser.Location = new System.Drawing.Point(54, 171);
+            this.buttonRegisterUser.Location = new System.Drawing.Point(215, 266);
             this.buttonRegisterUser.Name = "buttonRegisterUser";
             this.buttonRegisterUser.Size = new System.Drawing.Size(220, 43);
             this.buttonRegisterUser.TabIndex = 8;
@@ -176,7 +184,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(51, 102);
+            this.label3.Location = new System.Drawing.Point(186, 178);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 13);
             this.label3.TabIndex = 7;
@@ -185,7 +193,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(47, 76);
+            this.label2.Location = new System.Drawing.Point(182, 152);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 6;
@@ -194,7 +202,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 50);
+            this.label1.Location = new System.Drawing.Point(180, 126);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 5;
@@ -203,7 +211,7 @@
             // checkBoxAddInv
             // 
             this.checkBoxAddInv.AutoSize = true;
-            this.checkBoxAddInv.Location = new System.Drawing.Point(112, 148);
+            this.checkBoxAddInv.Location = new System.Drawing.Point(247, 224);
             this.checkBoxAddInv.Name = "checkBoxAddInv";
             this.checkBoxAddInv.Size = new System.Drawing.Size(162, 17);
             this.checkBoxAddInv.TabIndex = 4;
@@ -213,7 +221,7 @@
             // checkBoxAddPos
             // 
             this.checkBoxAddPos.AutoSize = true;
-            this.checkBoxAddPos.Location = new System.Drawing.Point(112, 125);
+            this.checkBoxAddPos.Location = new System.Drawing.Point(247, 201);
             this.checkBoxAddPos.Name = "checkBoxAddPos";
             this.checkBoxAddPos.Size = new System.Drawing.Size(139, 17);
             this.checkBoxAddPos.TabIndex = 3;
@@ -222,27 +230,29 @@
             // 
             // textBoxAddPass
             // 
-            this.textBoxAddPass.Location = new System.Drawing.Point(112, 73);
+            this.textBoxAddPass.Location = new System.Drawing.Point(247, 149);
             this.textBoxAddPass.Name = "textBoxAddPass";
             this.textBoxAddPass.Size = new System.Drawing.Size(139, 20);
             this.textBoxAddPass.TabIndex = 2;
             // 
             // textBoxAddFull
             // 
-            this.textBoxAddFull.Location = new System.Drawing.Point(112, 99);
+            this.textBoxAddFull.Location = new System.Drawing.Point(247, 175);
             this.textBoxAddFull.Name = "textBoxAddFull";
             this.textBoxAddFull.Size = new System.Drawing.Size(139, 20);
             this.textBoxAddFull.TabIndex = 1;
             // 
             // textBoxAddUser
             // 
-            this.textBoxAddUser.Location = new System.Drawing.Point(112, 47);
+            this.textBoxAddUser.Location = new System.Drawing.Point(247, 123);
             this.textBoxAddUser.Name = "textBoxAddUser";
             this.textBoxAddUser.Size = new System.Drawing.Size(139, 20);
             this.textBoxAddUser.TabIndex = 0;
             // 
             // groupBoxEditUser
             // 
+            this.groupBoxEditUser.BackgroundImage = global::Malj_Boutique.Properties.Resources.istockphoto_526019583_612x612;
+            this.groupBoxEditUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBoxEditUser.Controls.Add(this.comboBoxUsername);
             this.groupBoxEditUser.Controls.Add(this.buttonUpdateUser);
             this.groupBoxEditUser.Controls.Add(this.label4);
@@ -252,7 +262,7 @@
             this.groupBoxEditUser.Controls.Add(this.checkBoxEditPos);
             this.groupBoxEditUser.Controls.Add(this.textBoxEditPass);
             this.groupBoxEditUser.Controls.Add(this.textBoxEditFull);
-            this.groupBoxEditUser.Location = new System.Drawing.Point(841, 310);
+            this.groupBoxEditUser.Location = new System.Drawing.Point(92, 16);
             this.groupBoxEditUser.Name = "groupBoxEditUser";
             this.groupBoxEditUser.Size = new System.Drawing.Size(501, 323);
             this.groupBoxEditUser.TabIndex = 9;
@@ -265,7 +275,7 @@
             this.comboBoxUsername.DataSource = this.loginBindingSource;
             this.comboBoxUsername.DisplayMember = "Username";
             this.comboBoxUsername.FormattingEnabled = true;
-            this.comboBoxUsername.Location = new System.Drawing.Point(112, 46);
+            this.comboBoxUsername.Location = new System.Drawing.Point(210, 38);
             this.comboBoxUsername.Name = "comboBoxUsername";
             this.comboBoxUsername.Size = new System.Drawing.Size(139, 21);
             this.comboBoxUsername.TabIndex = 9;
@@ -290,7 +300,7 @@
             // buttonUpdateUser
             // 
             this.buttonUpdateUser.Font = new System.Drawing.Font("Segoe Script", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.buttonUpdateUser.Location = new System.Drawing.Point(54, 171);
+            this.buttonUpdateUser.Location = new System.Drawing.Point(82, 202);
             this.buttonUpdateUser.Name = "buttonUpdateUser";
             this.buttonUpdateUser.Size = new System.Drawing.Size(220, 43);
             this.buttonUpdateUser.TabIndex = 8;
@@ -301,7 +311,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(51, 102);
+            this.label4.Location = new System.Drawing.Point(149, 94);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 13);
             this.label4.TabIndex = 7;
@@ -310,7 +320,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(47, 76);
+            this.label5.Location = new System.Drawing.Point(145, 68);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(59, 13);
             this.label5.TabIndex = 6;
@@ -319,7 +329,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(45, 50);
+            this.label6.Location = new System.Drawing.Point(143, 42);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 13);
             this.label6.TabIndex = 5;
@@ -328,7 +338,7 @@
             // checkBoxEditInv
             // 
             this.checkBoxEditInv.AutoSize = true;
-            this.checkBoxEditInv.Location = new System.Drawing.Point(112, 148);
+            this.checkBoxEditInv.Location = new System.Drawing.Point(210, 140);
             this.checkBoxEditInv.Name = "checkBoxEditInv";
             this.checkBoxEditInv.Size = new System.Drawing.Size(162, 17);
             this.checkBoxEditInv.TabIndex = 4;
@@ -338,7 +348,7 @@
             // checkBoxEditPos
             // 
             this.checkBoxEditPos.AutoSize = true;
-            this.checkBoxEditPos.Location = new System.Drawing.Point(112, 125);
+            this.checkBoxEditPos.Location = new System.Drawing.Point(210, 117);
             this.checkBoxEditPos.Name = "checkBoxEditPos";
             this.checkBoxEditPos.Size = new System.Drawing.Size(139, 17);
             this.checkBoxEditPos.TabIndex = 3;
@@ -347,7 +357,7 @@
             // 
             // textBoxEditPass
             // 
-            this.textBoxEditPass.Location = new System.Drawing.Point(112, 73);
+            this.textBoxEditPass.Location = new System.Drawing.Point(210, 65);
             this.textBoxEditPass.Name = "textBoxEditPass";
             this.textBoxEditPass.PasswordChar = '*';
             this.textBoxEditPass.Size = new System.Drawing.Size(139, 20);
@@ -355,7 +365,7 @@
             // 
             // textBoxEditFull
             // 
-            this.textBoxEditFull.Location = new System.Drawing.Point(112, 99);
+            this.textBoxEditFull.Location = new System.Drawing.Point(210, 91);
             this.textBoxEditFull.Name = "textBoxEditFull";
             this.textBoxEditFull.Size = new System.Drawing.Size(139, 20);
             this.textBoxEditFull.TabIndex = 1;
@@ -439,6 +449,7 @@
             // 
             // groupBoxAddItem
             // 
+            this.groupBoxAddItem.BackgroundImage = global::Malj_Boutique.Properties.Resources.top_view_white_clothes_hangers_pink_background_copy_space_flat_lay_minimalism_style_creative_layout_fashion_store_sale_150312375;
             this.groupBoxAddItem.Controls.Add(this.textBoxItemDesc);
             this.groupBoxAddItem.Controls.Add(this.textBoxItemName);
             this.groupBoxAddItem.Controls.Add(this.label10);
@@ -448,16 +459,16 @@
             this.groupBoxAddItem.Controls.Add(this.label9);
             this.groupBoxAddItem.Controls.Add(this.textBoxItemType);
             this.groupBoxAddItem.Controls.Add(this.textBoxItemPrice);
-            this.groupBoxAddItem.Location = new System.Drawing.Point(895, 247);
+            this.groupBoxAddItem.Location = new System.Drawing.Point(854, 306);
             this.groupBoxAddItem.Name = "groupBoxAddItem";
             this.groupBoxAddItem.Size = new System.Drawing.Size(501, 323);
             this.groupBoxAddItem.TabIndex = 11;
             this.groupBoxAddItem.TabStop = false;
-            this.groupBoxAddItem.Text = "Edit User";
+            this.groupBoxAddItem.Text = "Add Item";
             // 
             // textBoxItemDesc
             // 
-            this.textBoxItemDesc.Location = new System.Drawing.Point(137, 153);
+            this.textBoxItemDesc.Location = new System.Drawing.Point(159, 141);
             this.textBoxItemDesc.Multiline = true;
             this.textBoxItemDesc.Name = "textBoxItemDesc";
             this.textBoxItemDesc.Size = new System.Drawing.Size(220, 57);
@@ -465,7 +476,7 @@
             // 
             // textBoxItemName
             // 
-            this.textBoxItemName.Location = new System.Drawing.Point(137, 75);
+            this.textBoxItemName.Location = new System.Drawing.Point(159, 63);
             this.textBoxItemName.Name = "textBoxItemName";
             this.textBoxItemName.PasswordChar = '*';
             this.textBoxItemName.Size = new System.Drawing.Size(220, 20);
@@ -474,7 +485,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(65, 156);
+            this.label10.Location = new System.Drawing.Point(87, 144);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(66, 13);
             this.label10.TabIndex = 11;
@@ -483,7 +494,7 @@
             // buttonAddItem
             // 
             this.buttonAddItem.Font = new System.Drawing.Font("Segoe Script", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.buttonAddItem.Location = new System.Drawing.Point(137, 216);
+            this.buttonAddItem.Location = new System.Drawing.Point(275, 247);
             this.buttonAddItem.Name = "buttonAddItem";
             this.buttonAddItem.Size = new System.Drawing.Size(220, 43);
             this.buttonAddItem.TabIndex = 8;
@@ -494,7 +505,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(47, 130);
+            this.label7.Location = new System.Drawing.Point(69, 118);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(84, 13);
             this.label7.TabIndex = 7;
@@ -503,7 +514,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(94, 101);
+            this.label8.Location = new System.Drawing.Point(116, 89);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(37, 13);
             this.label8.TabIndex = 6;
@@ -512,7 +523,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(90, 78);
+            this.label9.Location = new System.Drawing.Point(112, 66);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(41, 13);
             this.label9.TabIndex = 5;
@@ -520,7 +531,7 @@
             // 
             // textBoxItemType
             // 
-            this.textBoxItemType.Location = new System.Drawing.Point(137, 101);
+            this.textBoxItemType.Location = new System.Drawing.Point(159, 89);
             this.textBoxItemType.Name = "textBoxItemType";
             this.textBoxItemType.PasswordChar = '*';
             this.textBoxItemType.Size = new System.Drawing.Size(220, 20);
@@ -528,13 +539,14 @@
             // 
             // textBoxItemPrice
             // 
-            this.textBoxItemPrice.Location = new System.Drawing.Point(137, 127);
+            this.textBoxItemPrice.Location = new System.Drawing.Point(159, 115);
             this.textBoxItemPrice.Name = "textBoxItemPrice";
             this.textBoxItemPrice.Size = new System.Drawing.Size(220, 20);
             this.textBoxItemPrice.TabIndex = 1;
             // 
             // buttonBack
             // 
+            this.buttonBack.Font = new System.Drawing.Font("Segoe Script", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.buttonBack.Location = new System.Drawing.Point(12, 12);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(74, 39);
@@ -547,6 +559,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Malj_Boutique.Properties.Resources.abstract_blurred_fashion_clothes_shop_260nw_1369671731;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1000, 391);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.groupBoxAddItem);
@@ -554,6 +568,7 @@
             this.Controls.Add(this.groupBoxEditUser);
             this.Controls.Add(this.groupBoxAddUser);
             this.Controls.Add(this.groupBoxUsermngmnt);
+            this.DoubleBuffered = true;
             this.Name = "admin";
             this.Text = "Administrator Controls";
             this.Load += new System.EventHandler(this.admin_Load);

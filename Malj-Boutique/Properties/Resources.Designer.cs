@@ -63,9 +63,52 @@ namespace Malj_Boutique.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _105713626_fashion_and_clothing_personal_style_and_popular_trends_self_expression_and_creativity_selection_of_b {
+            get {
+                object obj = ResourceManager.GetObject("105713626-fashion-and-clothing-personal-style-and-popular-trends-self-expression-" +
+                        "and-creativity-selection-of-b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _106964132_woman_fashionable_boutique_clothing_store_window_display_in_shopping_mall_blur_defocused_background {
+            get {
+                object obj = ResourceManager.GetObject("106964132-woman-fashionable-boutique-clothing-store-window-display-in-shopping-ma" +
+                        "ll-blur-defocused-background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap abstract_blurred_fashion_clothes_shop_260nw_1369671731 {
             get {
                 object obj = ResourceManager.GetObject("abstract-blurred-fashion-clothes-shop-260nw-1369671731", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_526019583_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-526019583-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap top_view_white_clothes_hangers_pink_background_copy_space_flat_lay_minimalism_style_creative_layout_fashion_store_sale_150312375 {
+            get {
+                object obj = ResourceManager.GetObject("top-view-white-clothes-hangers-pink-background-copy-space-flat-lay-minimalism-sty" +
+                        "le-creative-layout-fashion-store-sale-150312375", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

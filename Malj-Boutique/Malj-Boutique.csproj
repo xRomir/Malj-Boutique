@@ -161,6 +161,10 @@
     <Content Include="Data.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\istockphoto-526019583-612x612.jpg" />
+    <None Include="Resources\106964132-woman-fashionable-boutique-clothing-store-window-display-in-shopping-mall-blur-defocused-background.jpg" />
+    <None Include="Resources\top-view-white-clothes-hangers-pink-background-copy-space-flat-lay-minimalism-style-creative-layout-fashion-store-sale-150312375.jpg" />
+    <None Include="Resources\105713626-fashion-and-clothing-personal-style-and-popular-trends-self-expression-and-creativity-selection-of-b.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
